@@ -830,22 +830,95 @@ height: 20rem;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
+    grid-gap: 1rem;
+}
+.bigpic{
+    background: url(./img/page7/Image\ 140.png) no-repeat center left/contain;
 }
 .small4pic img {
     width: 5rem;
     height: 6rem;
 }
 .small4pic {
-    display:grid;
-    grid-template-rows: repeat(4,1fr);
+    display:flex;
+    flex-direction: column;
+    padding: 1rem;
     justify-content: space-between;
+    align-content: flex-end;
 }
 .p7items .header {
     display: flex;
 }
+.header {
+    font-size: 1rem;
+}
+.side {
+    font-size: .8rem;
+    margin-top: 1rem;
+}
+.side a{
+    color: #111111;
+    text-decoration: underline;
+}
 .f {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.lnk {
+    color: #111111;
+    border-style: solid;
+    border-width: 0.1rem;
+    padding: 0rem 0.3rem 0rem 0.3rem;
+    border-color: #111111;
+    font-size: 0.9rem;
+}
+.d a {
+    color: #111111;
+    padding: 1rem;
+}
+.qua {
+    padding: 1rem;
+    text-transform: uppercase;
+}
+.cart {
+    background: #111111;
+    text-align: center;
+}
+.cart a {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1.5rem;
+    justify-content: left;
+    color: #faeeee;
+    text-transform: uppercase;
+}
+.buy {
     display: flex;
-    display: inline-block;
+    text-transform: uppercase;
+}
+.rec {
+    background: #a5a1a1;
+}
+.rec a {
+    color: #111111;
+    text-decoration: underline;
+}
+/*page 9*/
+.pag9 {
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: .02rem;
+    border-color: #ebe6e6;
+}
+.pag9 a{
+    color: #111111;
+}
+.li {
+    font-family: 'chiller' ,'regular';
 }
 
 
