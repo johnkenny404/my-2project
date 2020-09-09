@@ -949,14 +949,6 @@ height: 20rem;
     margin-left: 1rem;
 }
 
-/*page 8*/
-.pag8 {
-    display: flex;
-    justify-content: space-between;
-    border-style: solid;
-    border-width: .02rem;
-    border-color: #ebe6e6;
-}
 .break {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -1200,17 +1192,173 @@ height: 20rem;
 .puma2 {
     margin-top: 20rem;
 }
-
-    
-
+/*page 8*/
 
 
-
+.pag8 {
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: .02rem;
+    border-color: #ebe6e6;
+}
 .pag8 a{
     color: #111111;
 }
 .li {
     font-family: 'chiller' ,'regular';
 }
+#check {
+    display: flex;
+    gap: 3rem;
+    margin: 2rem;
+}
+.check1 {
+    text-transform: uppercase;
+}
 
+.border {
+    border-style: solid;
+    border-width: thin;
+}
+.form-row {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem .5rem 1rem .5rem;
+}
+.form-rows {
+    display: flex;
+    gap: 1rem;
+    margin-left:0.5rem;
+}
+.street-address {
+    width: 95%;
+    margin: 0rem 0.5rem 1rem .5rem;
+}
+#form-butn {
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 2rem 2rem 0rem;
+}
+.bttn {
+    background-color: #111111;
+    padding: .5rem;
+}
+.form-butn {
+    color: #a5a1a1;
+    margin: 0.5rem;
+}
+.in-cart {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+    margin: 0rem .3rem 0rem 0rem;
+}
+.car {
+    margin-left: .3rem;
+    text-transform: uppercase;
+    font-weight: bold
+}
+.delivery {
+    margin-left: .3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.images1 {
+    background: url(./img/pag8/Image\ 154.png)no-repeat center left/contain;
+    width: 10rem;
+    height: 15rem;
 
+}
+.order-details {
+    display: flex;
+    gap: .3rem;
+    margin: 0rem .3rem 0rem .3rem;
+}
+.images2 {
+    background: url(./img/pag8/Image\ 142.png)no-repeat center left/contain;
+    width: 10rem;
+    height: 15rem;
+
+}
+.images3 {
+    background: url(./img/pag8/Image\ 103.png)no-repeat center left/contain;
+    width: 10rem;
+    height: 15rem;
+
+}
+.delivery2 {
+    border-style: solid;
+    border-width: thin;
+    margin-top: 2rem;
+}
+.prices1 {
+    display: flex;
+    gap: 1.5rem;
+    margin: .7rem;
+}
+.prices2 {
+    display: flex;
+    gap: 2rem;
+    margin: .7rem;
+}
+.delivery-option {
+    text-transform: uppercase;
+}
+.pick-up {
+    text-transform: uppercase;
+}
+.payment-option {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.pay-radio {
+    margin: .7rem;
+}
+.payment-option-main {
+    border-style: solid;
+    border-width: thin;
+    margin-top: 2rem;
+}
+.payment-image {
+    display: flex;
+    margin: 2rem;
+
+}
+.payment-image1 {
+    background: url(./img/pag8/Image\ 1.png)no-repeat center left/contain;
+    width:8rem;
+    height:7rem;
+}
+.payment-image2 {
+    background: url(./img/pag8/Image\ 2.png)no-repeat center center/contain;
+    width:8rem;
+    height:7rem;
+}
+.payment-image3 {
+    background: url(./img/pag8/Image\ 3.png)no-repeat center right/contain;
+    width:8rem;
+    height:7rem;
+}
+.payment-img {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.7rem;
+}
+.payment-total {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.7rem;
+    font-weight: bold;
+}
+.modify {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+}
+.footer8 {
+    display: flex;
+    justify-content: space-between;
+}
