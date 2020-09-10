@@ -1199,11 +1199,14 @@ height: 20rem;
     display: flex;
     justify-content: space-between;
     border-style: solid;
-    border-width: .02rem;
-    border-color: #ebe6e6;
+    border-width: 0rem 0rem .1rem 0rem;
+    border-color:#f5f5f5;
+    
 }
 .pag8 a{
     color: #111111;
+    margin:1rem 0.7rem 1rem 0.7rem;
+    padding:1rem;
 }
 .li {
     font-family: 'chiller' ,'regular';
@@ -1220,6 +1223,9 @@ height: 20rem;
 .border {
     border-style: solid;
     border-width: thin;
+    border-color:#f5f5f5;
+    
+    
 }
 .form-row {
     display: flex;
@@ -1232,12 +1238,13 @@ height: 20rem;
     margin-left:0.5rem;
 }
 .street-address {
-    width: 95%;
-    margin: 0rem 0.5rem 1rem .5rem;
+    width: 83%;
+    margin: 0rem 0rem 1rem 0.5rem;
+    
 }
 #form-butn {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0rem 2rem 2rem 0rem;
 }
 .bttn {
@@ -1287,10 +1294,15 @@ height: 20rem;
     height: 15rem;
 
 }
+.details-1 h5{
+    font-size:large;
+    font-weight: lighter;
+}
 .delivery2 {
     border-style: solid;
     border-width: thin;
     margin-top: 2rem;
+    border-color: #f5f5f5;
 }
 .prices1 {
     display: flex;
@@ -1304,6 +1316,11 @@ height: 20rem;
 }
 .delivery-option {
     text-transform: uppercase;
+    margin: 0.3rem;
+}
+ hr {
+     border-width: thin;
+     border-color: #ffffff;
 }
 .pick-up {
     text-transform: uppercase;
@@ -1320,6 +1337,7 @@ height: 20rem;
     border-style: solid;
     border-width: thin;
     margin-top: 2rem;
+    border-color: #f5f5f5;
 }
 .payment-image {
     display: flex;
@@ -1357,8 +1375,41 @@ height: 20rem;
     font-weight: bold;
     text-align: center;
     margin-top: 1rem;
+    font-size: small;
 }
 .footer8 {
     display: flex;
     justify-content: space-between;
+}
+.placeholder {
+    border-style: solid;
+    border-width: thin;
+    border-color:#f5f5f5;
+}
+.placeholder-1 {
+    font-size: xx-small;
+    text-align: center;
+    margin-top: 2rem;
+}
+.placeholder-1 {
+    font-size: xx-small;
+    text-align: center;
+    color: gray;
+}
+.placeholder-1 a{
+    text-decoration:underline;
+    color: gray;
+}
+.placeholder-2 a{
+    font-family: 'Segoe UI';
+    font-size:small;
+    color:#ffffff;
+    background-color: #111111;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: .5rem 6rem .5rem 6rem; 
+}
+.placeholder-1 p {
+    text-align: center;
+    margin-top: 1rem;
 }
