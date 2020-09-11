@@ -1414,14 +1414,16 @@ height: 20rem;
     margin-top: 1rem;
 }
 /*page9*/
-#nav {
+ #nav {
     position: sticky;
     top: 0;
     z-index: 2;
+    background-color: #ffffff;
 }
 .nav-header {
     display: flex;
     justify-content: space-between;
+    background-color: #ffffff;
 }
 .awsome {
     display: flex;
@@ -1466,4 +1468,161 @@ height: 20rem;
     font-family: 'arial';
     font-weight: bold;
     text-transform: uppercase;
+}
+.wish-list1 {
+    display: flex;
+    justify-content: space-between;
+}
+.wish-list11 {
+    display: flex;
+    gap: 1.5rem;
+}
+.wish-list-image1 {
+    background: url(./img/page9/Image\ 116.png)no-repeat center right/contain;
+    width:8rem;
+    height:7rem;;
+}
+.wish-list-remove {
+    color: #EC7D55;
+}
+
+.w-l-image211 {
+    background: url(./img/page9/Image\ 117.png)no-repeat center left/contain;
+    width:8rem;
+    height:7rem;
+}
+.w-l-image212 {
+    background: url(./img/page9/Image\ 118.png)no-repeat center left/contain;
+    width:8rem;
+    height:7rem;
+}
+.w-l-image213 {
+    background: url(./img/page9/Image\ 119.png)no-repeat center left/contain;
+    width:8rem;
+    height:7rem;
+}
+.wish-list-images {
+    display: flex;
+}
+.use-fit1 {
+    background: url(./img/page9/Image\ 176.png)no-repeat center left/contain;
+    width:3rem;
+    height:2rem;
+}
+.use-fit {
+    display: flex;
+    justify-content: flex-end;
+}
+.add-cart {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Segoe UI';
+    gap: 7rem;
+    border-style:solid;
+    border-width: thin;
+    border-color: #111111;
+    margin: 1rem 0rem 1rem 0rem;
+    padding: .5rem 0rem .5rem 0rem;
+}
+.add-cart a {
+    color: #111111;
+    padding: 1rem 1rem 1rem 0rem; 
+    font-family: 'Segoe UI';
+}
+.select-size1 {
+    border-style: none;
+    border-width: thin;
+    margin-top: 1rem;
+    padding: 0rem 2rem 0rem 2rem;
+}
+.select-size2 {
+    border-style: none;
+    border-width: thin;
+    padding: 0rem 2rem 0rem 2rem;
+}
+.use-fit2 a {
+    color: #111111;
+    font-family: 'Segoe UI';
+}
+.wish-list-image3 {
+    background: url(./img/page9/Image\ 123.png)no-repeat center right/contain;
+    width:8rem;
+    height:7rem;;
+}
+.wish-list2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.w-l-image311 {
+    background: url(./img/page9/Image\ 121.png)no-repeat center left/contain;
+    width:8rem;
+    height:7rem;
+}
+.w-l-image312 {
+    background: url(./img/page9/Image\ 122.png)no-repeat center left/contain;
+    width:8rem;
+    height:7rem;
+}
+.w-l-image313 {
+    background: url(./img/page9/Image\ 120.png)no-repeat center left/contain;
+    width:8rem;
+    height:7rem;
+}
+.wish-list3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.wish-list-image4 {
+    background: url(./img/page9/Image\ 142.png)no-repeat center right/contain;
+    width:8rem;
+    height:7rem;;
+}
+.w-l-image411 {
+    background: url(./img/page9/Image\ 148.png)no-repeat center left/contain;
+    width:8rem;
+    height:7rem;
+}
+.w-l-image412 {
+    background: url(./img/page9/Image\ 146.png)no-repeat center left/contain;
+    width:8rem;
+    height:7rem;
+}
+.w-l-image413 {
+    background: url(./img/page9/Image\ 143.png)no-repeat center left/contain;
+    width:8rem;
+    height:7rem;
+}
+.wish-list5 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.wish-list-image5 {
+    background: url(./img/page9/Image\ 149.png)no-repeat center right/contain;
+    width:8rem;
+    height:7rem;;
+}
+.w-l-image511 {
+    background: url(./img/page9/Image\ 147.png)no-repeat center left/contain;
+    width:8rem;
+    height:7rem;
+}
+.w-l-image512 {
+    background: url(./img/page9/Image\ 145.png)no-repeat center left/contain;
+    width:8rem;
+    height:7rem;
+}
+.w-l-image513 {
+    background: url(./img/page9/Image\ 144.png)no-repeat center left/contain;
+    width:8rem;
+    height:7rem;
+}
+#foot {
+    background-color: #fbfbfb;
+}
+.foot-content {
+    display: flex;
+    justify-content: space-between;
 }
