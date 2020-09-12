@@ -1626,3 +1626,193 @@ height: 20rem;
     display: flex;
     justify-content: space-between;
 }
+.follow1 ul {
+    display: flex;
+    gap: 1rem;
+}
+.form-foot {
+    padding: .5rem 0rem .5rem .5rem;
+}
+.form-foot1 {
+    background-color: #111111;
+    color: #ffffff;
+    padding: .5rem .5rem .5rem .5rem;
+}
+/*page10*/
+.cating-show-show {
+    display: flex;
+    justify-content: space-evenly;
+}
+.page10-1 {
+    border-style: solid;
+    border-width: thin;
+    border-color: #ffffff;
+}
+.page10-2 {
+    border-style: solid;
+    border-width: thin;
+    border-color: #ffffff;
+}
+.page10-3 {
+    border-style: solid;
+    border-width: thin;
+    border-color: #ffffff;
+}
+.heart {
+    display: flex;
+    color: #111111;
+}
+.later-save {
+    margin:1rem 6rem 0rem 0rem;
+}
+.heart a {
+    color: #EC7D55;
+    margin-top: 1rem;
+}
+.page10-summary {
+    border-style: solid;
+    border-width: thin;
+    border-color: #f5f5f5;
+    margin-top: 8rem;
+    height: 24rem;
+}
+.summary2 {
+    display: flex;
+    gap: 10rem;
+    margin: 3rem 0.5rem 0rem 0.5rem;
+    font-family: 'Segoe UI';
+    color: #111111;
+}
+.page10-summary1 {
+    margin:.5rem;
+    font-family: 'Segoe UI';
+    color: #111111;
+    font-weight: bold;
+}
+.summary-item1 {
+    margin:0rem 0.5rem 0rem 0rem;
+}
+.summary-3 {
+    display: flex;
+    gap: 3.5rem;
+    margin: 1rem 0.5rem 0rem 0.5rem;
+    font-family: 'Segoe UI';
+    color: #111111;
+}
+.summary-4 {
+    display: flex;
+    gap:12rem;
+    margin: 1rem 0.5rem 0rem 0.5rem;
+    font-family: 'Segoe UI';
+    color: #111111;
+}
+.summary-5 {
+    display: flex;
+    gap: 13.5rem;
+    margin: 1rem 0.5rem 0rem 0.5rem;
+    font-family: 'Segoe UI';
+    color: #111111;
+}
+.summary-item2 {
+    font-weight: bold;
+}
+.summary-item3 {
+    font-weight: bold;
+}
+.placeholder-page10 {
+    text-align: center;
+    margin-top:4rem;
+}
+.placeholder-page10-1 a {
+    color:#ffffff;
+    font-size: small;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #111111;
+    padding:.5rem 2rem 0.5rem 2rem;
+}
+.add-item {
+    text-align: center;
+    text-transform: uppercase;
+}
+.page10-empty {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+.page10-empty1 {
+    background-color:#000;
+    width: 3rem;
+    height: 6px;
+}
+.page10-2 {
+    background-color:#e8e8e8;
+    width: 3rem;
+    height: 4px;
+}
+/*page11*/
+.page11 {
+    background-color: #00000045;
+    margin: auto;
+    width: 50%;
+    padding: 5rem;
+}
+.page11-1 {
+    background-color: #ffffff;
+    margin: auto;
+}
+.page11-2{
+    text-align: end;
+    padding: .5rem 2rem 0rem 0rem;
+}
+.page11-3 {
+    padding-left:1rem;
+}
+.page11-form {
+    padding-left: 2rem;
+}
+.page11-4 {
+    width: 18rem;
+    padding: 0.5rem;
+}
+.page11-5 {
+    width: 18rem;
+    padding: 0.5rem;
+}
+.page11-form {
+    padding-bottom: 2rem;
+}
+.login {
+    display: flex;
+    font-size: smaller;
+    gap: 1rem;
+    columns: #111111;
+    font-family: 'Segoe UI';
+}
+.forget {
+    margin-top:.1rem ;
+}
+.sign-in {
+    font-size: smaller;
+    text-align: center;
+    margin-right: 5rem;
+}
+.placeholder-page11-1 a {
+    color:#ffffff;
+    background-color: #111111;
+    margin-left: 8rem;
+    text-transform: uppercase;
+}
+.sign-in1 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5rem;
+    background-color: #111111;
+    margin-left:3rem ;
+
+}
+.sign-in1 a {
+    color:#ffffff;
+    background-color: #111111;
+
+}
