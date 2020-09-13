@@ -1743,9 +1743,9 @@ height: 20rem;
 .page10-empty1 {
     background-color:#000;
     width: 3rem;
-    height: 6px;
+    height: 4px;
 }
-.page10-2 {
+.page10-122 {
     background-color:#e8e8e8;
     width: 3rem;
     height: 4px;
@@ -1754,29 +1754,44 @@ height: 20rem;
 .page11 {
     background-color: #00000045;
     margin: auto;
-    width: 50%;
+    width: 90%;
     padding: 5rem;
 }
 .page11-1 {
     background-color: #ffffff;
     margin: auto;
 }
+.page11-name {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 0.4rem;
+}
+.page11-pass{
+    text-align: center;
+    margin-bottom: 2rem;
+}
 .page11-2{
     text-align: end;
-    padding: .5rem 2rem 0rem 0rem;
+    padding: 2rem 2rem 0rem 0rem;
+}
+.page11-2 a{
+    text-transform: uppercase;
+    color: #111111;
 }
 .page11-3 {
-    padding-left:1rem;
+    padding-left:13rem;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .page11-form {
     padding-left: 2rem;
 }
 .page11-4 {
-    width: 18rem;
+    width: 25rem;
     padding: 0.5rem;
 }
 .page11-5 {
-    width: 18rem;
+    width: 25rem;
     padding: 0.5rem;
 }
 .page11-form {
@@ -1784,6 +1799,7 @@ height: 20rem;
 }
 .login {
     display: flex;
+    justify-content: center;
     font-size: smaller;
     gap: 1rem;
     columns: #111111;
@@ -1795,7 +1811,6 @@ height: 20rem;
 .sign-in {
     font-size: smaller;
     text-align: center;
-    margin-right: 5rem;
 }
 .placeholder-page11-1 a {
     color:#ffffff;
@@ -1815,4 +1830,39 @@ height: 20rem;
     color:#ffffff;
     background-color: #111111;
 
+}
+.page11-btn {
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem 14.3rem 1rem 14.3rem;
+    background-color: #111111;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.page11-btn i{
+    padding-right: 2rem;
+}
+.account-not {
+background-color: #ffffff;
+}
+.account-not1 {
+    text-align: center;
+    padding: 1.5rem;
+}
+.account-not1 a {
+    color: #111111;
+    font-weight: bold;
+}
+/*page12*/
+.page12{
+    padding: 0rem 0rem 0rem 14.3rem;
+    
+}
+.page12-2 {
+margin-left: 14.5rem;
+}
+.page12-1 {
+    padding: .5rem;
+    width: 25rem;
 }
