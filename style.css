@@ -1866,3 +1866,219 @@ margin-left: 14.5rem;
     padding: .5rem;
     width: 25rem;
 }
+/*page13*/
+.page13-3 {
+    border-style: solid;
+    border-width: thin;
+    border-color:#E4E4E4;
+    margin: 0rem 13.8rem .5rem 13.8rem;
+}
+.page13-2 {
+    border-style: solid;
+    border-width: 0px;
+    border-color:#E4E4E4;
+    padding: 0rem 2rem 0rem 0rem;
+}
+.page16 {
+    text-align: center;
+    color: #259D5D;
+    margin: 3rem;
+}
+.page16-1 {
+    text-align: center;
+    font-family: 'Segoe UI';
+    color: #111111;
+}
+.page16-2 {
+    text-align: center;
+    color: #757575;
+}
+.page16-3 {
+    text-align: center;
+}
+.page16-3 a {
+    text-decoration: underline;
+    color: #757575;
+    
+}
+.page16-5 {
+    font-size: large;
+    text-transform: uppercase;
+    padding-top:5rem ;
+}
+.page16-66 {
+    padding-left: 3rem;
+    
+}
+
+ td {
+    width: 20rem;
+}
+.page16-91 {
+    text-align: end;
+    padding-right: 4rem;
+}
+.page16-9 {
+    border-style: solid;
+    border-width: 0rem 0rem 0.2px 0rem;
+    border-color: #a5a1a1;
+}
+.page16-items {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+.page16-item-image {
+    background: url(./img/page16/Image\ 140.png) no-repeat center left/contain;
+    width: 8rem;
+    height: 7rem;
+}
+.page16-items1 {
+    display: flex;
+}
+.page16-head {
+    font-weight: 500;
+}
+.page16-item2 {
+    display: flex;
+    gap: 3rem;
+    font-weight: bold;
+}
+.page16-item-image1 {
+    background: url(./img/page16/Image\ 142.png) no-repeat center left/contain;
+    width: 8rem;
+    height: 7rem;
+}
+.page16-items2 {
+    display: flex;
+    padding-left: 9.5rem;
+}
+.page16-item-image3 {
+    background: url(./img/page16/Image\ 116.png) no-repeat center left/contain;
+    width: 8rem;
+    height: 7rem;
+}
+.page16-rap {
+    border-style: solid;
+    border-width: 0rem 0rem 0.2px 0rem;
+    border-color: #a5a1a1;
+}
+.page16-total {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 7rem;
+    border-style: solid;
+    border-width: 0rem 0rem 0.2px 0rem;
+    border-color: #a5a1a1;
+}
+.page16-total-cotain {
+    display: flex;
+    gap: 3rem;
+}
+.page16-total-2 {
+    font-weight: bold;
+}
+.page16-notice {
+    color:#757575 ;
+    font-family: 'Segoe UI';
+    padding-bottom: 2rem;
+}
+
+.page16-notice a{
+    text-decoration: underline;
+    color: #757575;
+}
+
+/* page 17*/
+#page17-nav {
+    border-style: solid;
+    border-width: 0rem 0rem 0.2px 0rem;
+    border-color: #e8e8e8;
+
+}
+.page17-nav {
+    display: flex;
+    gap:3rem;
+}
+.page17-nav a {
+    color: #757575;
+    font-family: 'Segoe UI';
+    text-transform: uppercase;
+}
+.page17 {
+    font-weight: bolder;
+}
+.page17-shop-image1 {
+    background: url(./img/page17/Image\ 164.png) no-repeat center right/contain;
+    width: 16rem;
+    height: 24rem;
+}
+.page17-shop-image2 {
+    background: url(./img/page17/Image\ 165.png) no-repeat center right/contain;
+    width: 16rem;
+    height: 24rem;
+}
+.page17-article {
+    display: flex;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+.page17-shopcaard {
+    display: flex;
+    gap: 5rem;
+}
+.page17-header {
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: bold;
+}
+.page17-txt {
+    text-transform: uppercase;
+    font-size: small;
+    color: #757575;
+}
+.page17-txt1 {
+    font-size: small;
+    color: #757575;
+}
+/*page18*/
+.page18-image2 {
+    background: url(./img/page18/Image\ 156.png) no-repeat center right/contain;
+    width: 14rem;
+    height: 15rem;
+}
+.page18-image1 {
+    background: url(./img/page18/Image\ 163.png) no-repeat center right/contain;
+    width: 14rem;
+    height: 15rem;
+}
+.page18-image3 {
+    background: url(./img/page18/Image\ 157.png) no-repeat center right/contain;
+    width: 14rem;
+    height: 15rem;
+}
+.page18-article {
+    display: flex;
+    justify-content: space-between;
+}
+.page18-card {
+    display: flex;
+    gap: 14rem;
+}
+.page18-image1 {
+    padding-left: 2rem;
+}
+.page18-image-image {
+    display: flex;
+}
+.page18-top {
+    font-weight: bold;
+    color: #111111;
+}
+.page18-card2 {
+    color: #757575;
+    font-family: 'Segoe UI';
+    font-size: small;
+}
+
+
