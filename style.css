@@ -1988,6 +1988,9 @@ margin-left: 14.5rem;
     text-decoration: underline;
     color: #757575;
 }
+.page16-66 th {
+    text-align: left;
+}
 
 /* page 17*/
 #page17-nav {
@@ -2080,5 +2083,281 @@ margin-left: 14.5rem;
     font-family: 'Segoe UI';
     font-size: small;
 }
+/*page19*/
+.page19-image1 {
+    background: url(./img/page19/Image\ 160.png) no-repeat center right/contain;
+    width: 17rem;
+    height: 16rem;
 
+}
+.page19-image2 {
+    background: url(./img/page19/Image\ 158.png) no-repeat center right/contain;
+    width: 17rem;
+    height: 16rem;
+}
+.pages19-11 {
+    display: flex;
+    gap: 18rem;
+}
+.page19-article {
+    display: flex;
+    gap: 5rem;
+}
+.page19-image {
+    display: flex;
+    flex-direction: column;
+}
+.page19-image p  {
+    text-align: center;
+    margin:0rem 3rem 0rem 3rem;
+    padding: .3rem 0rem 0.3rem 0rem;
+    background-color: #ffffff;
+    color: #111111;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.page19-head {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.page19-cads {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: small;
+}
+.page19-card1 {
+    color: #757575;
+    text-transform: uppercase;
+    font-size: smaller;
+}
+.discount-19 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 5rem;
+    line-height: 2rem;
+    color: #ffffff;
+}
+.page19-women-2 {
+    border-style: solid;
+    border-width: 0rem .2px 0px 0rem;
+    border-color: #f1efef;
+    padding-right: 2rem;
+}
+/*page20*/
+.page20-top {
+    display: flex;
+    font-size: small;
+    padding-bottom: 3rem;
+}
+.page20-top1 a {
+    color: #111111;
+    font-weight: bold;
+}
+.page20-top2{
+    color: #757575;
+}
+.page20-article-11 {
+    background: url(./img/page20/Image\ 199.png) no-repeat center left/contain;
+    width: 17rem;
+    height: 20rem;
+}
+.page20-article-12b {
+    background: url(./img/page20/Image\ 200.png) no-repeat center right/contain;
+    width: 17rem;
+    height: 20rem;
+}
+.page20-article {
+    display: flex;
+    justify-content: space-around;
+}
+.page20-article-12a {
+    color:#757575;
+    text-align: center;
+    font-size: small;
+}
+.page20-article-12 {
+    font-size: small;
+    color: #757575;
+}
+.page20-header {
+    text-align: center;
 
+}
+.page20-article-2 {
+    padding-top: 2rem;
+}
+.page20-image {
+    background: url(./img/page20/Image\ 132.png) no-repeat center left/contain;
+    width: 20rem;
+    height: 17rem;
+}
+.page20-3 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F5F5F5;
+    margin-top: 3rem;
+}
+.page20-image1 {
+    text-align: end;
+}
+.page20-image1 img {
+    width: 17rem;
+    height: 18rem;
+    position: absolute;
+    top: 60rem;
+    right: 16rem;
+
+}
+.page20-article-3 {
+    font-size: small;
+    color: #757575;
+    font-style: italic;
+}
+.page19-beyond {
+    font-weight: bold;
+    text-align: center;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.page20-image4 {
+    background: url(./img/page20/Image\ 137.png) no-repeat center left/contain;
+    width: 20rem;
+    height: 17rem;
+}
+.page20-4 {
+    display: flex;
+    margin-top: 20rem;
+    justify-content: space-around;
+}
+.page20-article-12aa {
+    color:#757575;
+    font-size: small;
+}
+.page20-41 h3 {
+    font-size: small;
+}
+#foot-page20 {
+    margin-top: 7rem;
+}
+/*page 21*/
+.page21-image {
+    background: url(./img/page7/Image\ 140.png)no-repeat center left/contain;
+    width:8rem;
+    height:15rem;
+    margin-left: 1rem;
+}
+.page21-aa {
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 3rem;
+}
+.page21-1 {
+    background-color: #00000045;
+    margin: auto;
+    width: 60%;
+    padding: 5rem;
+}
+.page21 {
+    display: flex;
+    gap:1rem;
+}
+.page21-fit {
+    margin-top: 3rem;
+    font-family: 'Segoe UI';
+}
+.page21-3 {
+    margin-top: 3.8rem;  
+    margin-right: 2rem;
+}
+.page21-3 a {
+    color: #757575;
+}
+/*page22*/
+.page22-3 {
+    display: flex;
+    margin-top: 3.8rem;  
+    margin-right: 2rem;
+    gap: 1rem;
+}
+.page22-3 a{
+    color: #757575;
+    margin-top: 1rem;  
+    margin-right: 1rem;
+}
+.page22-1 {
+    color: #111111;
+    text-decoration: underline;
+}
+.page22-2 {
+    font-weight: bold;
+}
+.page22-4 {
+    font-size: small;
+}
+.page22-5b {
+    background: url(./img/page22/upload.svg)no-repeat center center/contain;
+    width:13rem;
+    height:12rem;
+    background-color: #FBFBFB;
+}
+.page22-5c {
+    background: url(./img/page22/Image\ 173.png)no-repeat center right/contain;
+    width:8rem;
+    height:15rem;
+}
+.page22-5 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+}
+.page22-5b p {
+    font-size: xx-small;
+    margin-top: 6rem;
+    color: #757575;
+}
+.page22-6 {
+    display: flex;
+    gap: 1rem;
+    margin-left: 9rem;
+    font-size:small;
+}
+.page22-6b {
+    color: blue;
+}
+.page22-7 {
+    display: flex;
+    justify-content: space-between;
+}
+.page22-7a a {
+    margin: 1rem;
+    color: #111111;
+    text-transform: uppercase;
+}
+.form-22 {
+    background-color: #111111;
+    color: #ffffff;
+    padding: .5rem .5rem .5rem .5rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+/*page23*/
+.page23 a{
+    background-color: #00000045;
+    margin: auto;
+    width: 60%;
+    padding: 5rem;
+}
+.page23-1 {
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 3rem;
+}
+/*page27*/
+.page27-a {
+    background: url(./img/page27/Image\ 174.png)no-repeat center right/contain;
+    width:8rem;
+    height:15rem;
+}
