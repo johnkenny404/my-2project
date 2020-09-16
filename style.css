@@ -2361,3 +2361,88 @@ margin-left: 14.5rem;
     width:8rem;
     height:15rem;
 }
+/*page28*/
+.page28-shop-image1 {
+    background: url(./img/page28/Image\ 90.png) no-repeat center right/contain;
+    width: 20rem;
+    height: 20rem;
+}
+.page28-shop-image2 {
+    background: url(./img/page28/Image\ 129.png) no-repeat center right/contain;
+    width: 20rem;
+    height: 20rem;
+}
+.page28-image {
+    display: flex;
+    margin-top: 3rem;
+}
+
+/*page29*/
+.page29-shop-image1 {
+    background: url(./img/page29/Image\ 162.png) no-repeat center left/contain;
+    width: 20rem;
+    height: 17rem;
+    margin-top: 5.5rem;
+}
+.page29-shop-image2 {
+    background: url(./img/page29/Image\ 161.png) no-repeat center left/contain;
+    width: 20rem;
+    height: 25rem;
+}
+.page29-article {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-content: center;
+}
+.page29-shopcaard {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-content: center;
+}
+.page29-txt {
+    font-size: small;
+    color: #757575;
+}
+.page29-txt2 {
+    font-size: small;
+    color: #757575;
+}
+.page17-txt3 {
+    font-size: small;
+    color: #757575;
+}
+.page29-card3 {
+    border-style: solid;
+    border-width: 0rem .4px 0px 0rem;
+    border-color:#f1efef;
+    padding-right: 3rem;
+}
+.page29-image {
+    display: flex;
+    gap:.5rem;
+}
+.page29-header {
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    border-style: solid;
+    border-width: 0rem 0px .2px 0rem;
+    border-color:#f1efef;
+}
+/*page30*/
+.page30-image1 {
+    background: url(./img/page30/Image\ 214.png) no-repeat center right/contain;
+    width: 35rem;
+    height: 25rem;
+}
+.page30-article {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.page30-article-1 {
+    margin-top: 3rem;
+}
