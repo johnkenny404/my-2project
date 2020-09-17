@@ -2256,7 +2256,7 @@ margin-left: 14.5rem;
 .page21-1 {
     background-color: #00000045;
     margin: auto;
-    width: 60%;
+    width: 75%;
     padding: 5rem;
 }
 .page21 {
@@ -2267,12 +2267,90 @@ margin-left: 14.5rem;
     margin-top: 3rem;
     font-family: 'Segoe UI';
 }
+.page21-3d{
+    font-size: small;
+    color: #757575;
+    font-family: 'Segoe UI';
+}
 .page21-3 {
     margin-top: 3.8rem;  
     margin-right: 2rem;
 }
 .page21-3 a {
     color: #757575;
+}
+.page21-height-cm {
+    display: flex;
+    gap: 10rem;
+    border-style: dashed;
+    border-width: 0rem 0px .4px 0rem;
+    border-color:#f1efef;
+    padding-right: 3rem;
+    align-self: flex-end;
+}
+.page21-cm-kg{
+    display: flex;
+    gap: 1rem;
+}
+.page21-black {
+    background-color: #111111;
+    color: #ffffff;
+    padding: .2rem;
+}
+.page21-dash {
+    display: flex;
+    gap: 1rem;
+}
+.page21-dash1{
+    height: 4px;
+    width: 4rem;
+    background-color: black;
+}
+.page21-dash1 i {
+    color: #EC7D55;
+    position: absolute;
+    top: 31.5rem;
+    left: 38rem;
+}
+.page21-size {
+    display: flex;
+    gap: 6rem;
+    font-size: smaller;
+    text-transform: uppercase;
+}
+.page21-dash2{
+    height: 4px;
+    width: 4rem;
+    background-color: black;
+}
+.page21-dash2 i {
+    color: #EC7D55;
+    position: absolute;
+    top: 38.5rem;
+    left: 38rem;
+}
+.page21-image-unit {
+    margin-left: 1rem;
+    color: #757575;
+    font-size: small;
+}
+.page21-measure {
+    text-transform: uppercase;
+}
+.page21-foot {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 1rem 3rem 1rem;
+    padding-bottom: 3rem;
+    
+}
+.page21-skip  a{
+    color: #757575;
+}
+.page21-skip1 {
+    background-color: #111111;
+    color: #FFFFFF;
+    padding:4px 16px 4px 16px;
 }
 /*page22*/
 .page22-3 {
@@ -2344,17 +2422,111 @@ margin-left: 14.5rem;
     text-transform: uppercase;
 }
 /*page23*/
-.page23 a{
+.page23-1{
     background-color: #00000045;
     margin: auto;
-    width: 60%;
+    width: 80%;
     padding: 5rem;
 }
-.page23-1 {
+.page23 {
     background-color: #ffffff;
     margin: auto;
     margin-top: 3rem;
 }
+.page23-private {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+.page23-image {
+    background: url(./img/page23/Image\ 140.png)no-repeat center left/contain;
+    width:13rem;
+    height:12rem;
+    margin-left: 1rem;
+}
+.page23-head {
+    display: flex;
+    gap: 2rem;
+}
+.page23-text2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+.page23-text21 {
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.page23-text3 {
+    text-align: center;
+    color: #757575;
+}
+.page23-list {
+    display: flex;
+    justify-content: space-around;
+}
+.page23-list-3 {
+    color: #757575;
+    font-size: small;
+    border-style: solid;
+    border-width: .4px .4px .4px .4px;
+    border-color:#f1efef;  
+}
+.page23-list-4 {
+    margin-left: 10px;
+}
+.page23-list-1 {
+    color:#000000;
+}
+.page23-foot {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+}
+.page23-foot1 {
+    margin:1rem;
+}
+.page23-foot2 {
+    background-color: #111111;
+    color: #ffffff;
+    padding: .5rem .5rem .5rem .5rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+.page23-foot3 {
+    margin: 2.5rem 0rem 0rem 1rem;
+}
+.page23-foot3 a {
+    text-transform: uppercase;
+    color: #111111;
+}
+.page23-foot4 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    color: #757575;
+}
+.page23-foot6 {
+    text-decoration: underline;
+}
+.page23-foot6 a {
+    color: #757575;
+}
+.page23-private {
+    padding: 2rem;
+    color: #757575;
+}
+.page23-private1  {
+    text-decoration: underline;
+}
+.page23-private a {
+    color: #757575;
+}
+
+
 /*page27*/
 .page27-a {
     background: url(./img/page27/Image\ 174.png)no-repeat center right/contain;
@@ -2446,3 +2618,97 @@ margin-left: 14.5rem;
 .page30-article-1 {
     margin-top: 3rem;
 }
+.page30-article-1 p {
+    color: #757575;
+}
+.page30-btn {
+    border-style: solid;
+    border-width: thin;
+    border-color: #111111;
+    background-color: #FFFFFF;
+    padding:.5rem 1rem .5rem 1rem;
+    text-transform: uppercase;
+}
+.page30-shop {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border-style: solid;
+    border-width: 0rem 0px .2px 0rem;
+    border-color:#f1efef;
+}
+.page30-look {
+    display: flex;
+}
+.page30-image5 {
+    background: url(./img/page30/Image\ 219.png) no-repeat center left/contain;
+    width: 35rem;
+    height: 25rem;
+}
+.page30-image2 {
+    background: url(./img/page30/Image\ 218.png) no-repeat center left/contain;
+    width: 35rem;
+    height: 25rem;
+}
+.page30-image3 {
+    background: url(./img/page30/Image\ 217.png) no-repeat center left/contain;
+    width: 35rem;
+    height: 25rem;
+}
+.page30-image4 {
+    background: url(./img/page30/Image\ 206.png) no-repeat center right/contain;
+    width: 35rem;
+    height: 25rem;
+}
+.page30-look p {
+    display: flex;
+    margin-top: 25rem;
+}
+.page30-look a {
+    text-decoration: underline;
+    color: #111111;
+}
+.page30-btn2 {
+    border-style: solid;
+    border-width: thin;
+    border-color: #757575;
+    background-color: #FFFFFF;
+    padding:.5rem 1rem .5rem 1rem;
+    text-transform: uppercase;
+    margin-top: 8rem;
+    margin-left: 35rem;
+}
+.page30-image6 {
+    background: url(./img/page30/Image\ 216.png) no-repeat center left/contain;
+    width: 35rem;
+    height: 25rem;
+}
+.page30-image7{
+    background: url(./img/page30/Image\ 220.png) no-repeat center right/contain;
+    width: 35rem;
+    height: 25rem;
+}
+.page30-look2 {
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.page30-images-look {
+    margin-top: 25rem;
+}
+.page30-images-look p{
+    text-transform: uppercase;
+    font-family: 'Segoe UI';
+}
+.paragraph1 {
+    font-weight: bold;
+    font-size: larger;
+}
+.paragraph {
+    font-size: small;
+}
+.page30-images-look a {
+    text-decoration: underline;
+    color: #111111;
+    font-weight: bold;
+}
+
