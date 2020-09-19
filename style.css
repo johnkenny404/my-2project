@@ -1071,6 +1071,10 @@ height: 20rem;
     border-width: 0px 0px .5px 0px;
     border-color: #F5F5F5;
 }
+.page37-size3 {
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+}
 .fort {
     text-transform: uppercase;
 }
@@ -1109,7 +1113,9 @@ height: 20rem;
     height: 20rem;
 }
 #accesories {
-    margin-top: 5rem;
+    margin-top: 2rem;
+    padding-left: 4rem;
+    padding-bottom: 7rem;
 }
 .accesories {
     display: flex;
@@ -1141,11 +1147,19 @@ height: 20rem;
 .showall {
     display: flex;
     justify-content: space-between;
+    padding-left: 6rem;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #e8e8e8;
+    margin-bottom: 1rem;
 }
 .accesoriess {
     display: flex;
     justify-content: center;
     gap: 1rem;
+}
+#page10-article {
+    padding-bottom: 3rem;
 }
 .pm {
     background: url(./img/page7/Image\ 141.png) no-repeat center center/cover;
@@ -2901,6 +2915,10 @@ margin-left: 14.5rem;
 .page37-holli-2 {
     color: #EC7D55;
 }
+.page37-star i {
+    color: #EC7D55;
+    
+}
 .page37-holli-1 {
     font-size: x-large;
     font-weight: bold;
@@ -3117,6 +3135,10 @@ margin-left: 14.5rem;
     margin-top: 2rem;
     margin-left: 3rem;
 }
+.page37-container-container p {
+    color: #95989A;
+}
+
 .page37-star-number {
     display: flex;
     gap: .2rem;
@@ -3129,6 +3151,15 @@ margin-left: 14.5rem;
     border-width: 0px 0px .2px 0px;
     border-color: #F5F5F5;
     padding-right: 6rem;
+}
+.page37-great h2 {
+    font-family: 'Segoe UI';
+}
+.page37-great p {
+    color:#95989A;
+}
+.page37-great i {
+    color: blue;
 }
 .range5 {
     width: 300px;
@@ -3251,4 +3282,52 @@ margin-left: 14.5rem;
     border-color: #111111;
     padding: 10px 15px;
     text-transform: uppercase;
+}
+.blue {
+    color: #95989A;
+}
+#accesories p {
+    color: #111111;
+    font-family: 'Segoe UI';
+}
+.page37-size1 {
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+}
+/*page38*/
+.page37-size2 {
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+}
+/*page39*/
+.page37-size4 {
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+}
+/*page40*/
+.page37-size5 {
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+}
+/*page41*/
+.page41-article {
+    display: flex;
+    gap: 17rem;
+    padding-top: 1rem;
+}
+.page41-article1 {
+    color:#111111;
+    font-family: Arial;
+    padding-left: 3.5rem;
+    padding-top: 1rem;
+}
+.page41-cart {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 13rem;
+    color: #111111;
+    gap: 5px;
+    font-family: 'Segoe UI';
+    font-size: larger;
+
 }
