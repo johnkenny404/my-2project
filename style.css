@@ -97,6 +97,10 @@ margin: 1rem;
 
 #main-nav .container {
     background:#fff;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color:#e8e8e8;
+    margin-bottom: 2rem;
 }
 #main-nav .container {
     display: flex;
@@ -104,6 +108,7 @@ margin: 1rem;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    
 }
 
 #main-nav .container .link {
@@ -118,6 +123,7 @@ margin: 1rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background-color: #ffffff;
     
 }
 .container .nav-link .active {
@@ -128,120 +134,216 @@ margin: 1rem;
     color: #111111;
     margin: .5rem;
 }
-.container .showcontainer {
-    display:flex;
+/*index page re-style*/
+.landed-index-image {
+    background: url(./img/Image\ 197@2x.png) no-repeat center center/cover;
+    width: 90rem;
+    height: 25rem;
+    z-index: 1;
+}
+.landed-index {
+    display: flex;
+    gap: 1rem;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: center;
 }
-.container .showcontainer .sp .ht {
-  background: #fff; /*div tag linking h1, p and the btn together*/
+.landed-index-11 {
+    z-index:3;
+    width: 21rem;
+    position: relative;
+    top: 0rem;
+    left: 5rem;
+    color: #757575;
+    background-color: #FFFFFF;
+    font-family: 'Segoe UI';
+    padding-bottom: 2px;
 }
-.container .showcontainer .sp .ht .sh { /*for h1*/
-    font-family:Arial;
+.landed-index-11 h1{
+    color:#111111 ;
+    font-family: Arial;
     font-weight: bold;
-    text-align: left;
 }
-.container .showcontainer .sp .ht .pp {
-    font-family:'segoe UI';
-    text-align: center ,left;
+.landed-index-12 {
+    padding-top: 1rem;
 }
-.container .showcontainer .sp .btn {
-    z-index: 1;
+.landed-index-12 a {
+    font-family: 'Segoe UI';
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #111111;
     border-style: solid;
-    border-width: 0px 2px 2px 0px;
-    padding: .5rem;
-    
+    border-width: 0px 4px 4px 0px;
+    border-color: #111111;
+    padding: 8px 15px 8px 15px ;
+    position: relative;
+    top: 0rem;
+    left: 5rem;
 }
-.container .showcontainer .im {
-    z-index: 1;
+.landed-index-awsome  {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
-/*article section*/
-#article {
-    display: grid;
-    grid-template-rows: repeat(2,1f);
+.index-section-image-1 {
+ background: url(./img/Image\ 18@2x.png) no-repeat center center/contain;
+width: 20rem;
+height: 40rem;
 }
-#article .container img {
-    width: 300px;
+.index-section-image-21 {
+    background: url(./img/Image\ 19@2x.png) no-repeat center center/cover;
+width: 20rem;
+height: 14rem;
 }
-#article .container .mencontainer{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 1rem;
-    justify-content: space-between;
+.index-section-image-22 {
+    background: url(./img/Image\ 20@2x.png) no-repeat center center/cover;
+width: 20rem;
+height: 14rem;
+}
+.index-section-1 {
+    display: flex;
+    gap: 2rem;
     align-items: center;
+    color: #757575;
+    font-family: 'Segoe UI';
 }
-.container .women {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 1rem;
-    justify-content: space-between;
-    align-items: center;
+.index-section-image-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
-.container .women img{
-    padding-top: 3em;
+.landed-index-12b a {
+    font-family: 'Segoe UI';
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #111111;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color:#757575;
+    padding: 8px 15px 8px 15px ;
 }
-.container .rope .btn {
-    display: inline;  
+.index-section-11 h1 {
+    color:#111111 ;
+    font-family: Arial;
+    font-weight: bold;
+}
+.index-section-image-3 {
+    background: url(./img/Image\ 27@2x.png) no-repeat center center/contain;
+    width: 20rem;
+    height: 40rem;
+}
+.index-section-image-32 {
+    background: url(./img/Image\ 21@2x.png) no-repeat center center/cover;
+    width: 20rem;
+    height: 14rem;
 }
 
-.container .end {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    align-items: center;
-    justify-content: space-between;
-    grid-gap: 1em;
+.index-section-image-33 {
+    background: url(./img/Image\ 24@2x.png) no-repeat center center/cover;
+    width: 20rem;
+    height: 12rem;
 }
-.container .end .en1 {
+.index-section-11b-images {
+    background: url(./img/Image\ 25@2x.png) no-repeat center center/cover;
+    width: 20rem;
+    height: 12rem;
+}
+.index-women {
+    padding-bottom: 5rem;
+}
+.index-section-image-31 {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    gap: 2rem;
 }
-.container .end .en2 { 
+.index-section-41 {
+    background: url(./img/Image\ 26@2x.png) no-repeat center left/contain;
+    width: 20rem;
+    height: 40rem; 
+}
+.index-section-42 {
+    background: url(./img/Image\ 28@2x.png) no-repeat center center/contain;
+    width: 20rem;
+    height: 40rem; 
+}
+.index-section-43 {
+    background: url(./img/Image\ 29@2x.png) no-repeat center right/contain;
+    width: 20rem;
+    height: 40rem; 
+}
+.index-section-4 {
     display: flex;
-    flex-direction: column;
+    gap: 2rem;
     align-items: center;
-    justify-content: center;
 }
-.container .end .en3 {
+.index-links {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top:35rem;
+    text-transform: uppercase;
+    color: #111111;
+    font-family: Arial;
+    font-weight: bold;
 }
-.container .end .en1 .en {
-    color: red;
+.index-link1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:35rem;
+    text-transform: uppercase;
+    color:#E32B2B;
+    font-family: Arial;
+    font-weight: bold;
 }
-.container .endd {
-    background: url(./img/shoe.png) no-repeat center right/contain ;
-    padding: 1rem;
-    margin: 1rem;
+.index-section-4 p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #757575;
 }
-#article .container .endd .en {
-    border-style: solid;
-    border-width: .1rem .1rem;
-    padding: 0.3rem 2rem .3rem 2rem; 
-    text-decoration: #111111;
+.index-section-51 {
+    background: url(./img/shoe.png) no-repeat center right/contain;
+    width: 40rem;
+    height: 20rem; 
+    padding-right: 20rem;
+    margin-top: 10rem;
+    
 }
-/*footer section of index page*/
-#sec {
+
+.index-section-51 p {
+    color:#757575;
+    font-size: small;
+    justify-content: center;
+}
+.index-section-51 {
+    width: 70rem;
+    align-items: center;
+    justify-content: center;
     padding-top: 3rem;
 }
-#sec .container .footercontainer {
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    justify-content: space-between;
-    grid-gap: 1rem;
+.index-52 {
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    font-size:xx-large;
 }
-#sec .container .footercontainer .footer5 ul {
-    display: flex;
-    justify-content: space-between;   
+.index-53 {
+    font-family: 'Segoe UI';
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #111111;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color:#757575;
+    padding: 8px 15px 8px 15px ;
 }
-#sec .container  .footer6 ul {
-    display: flex;
-    justify-content: space-between;
-}
+
+
+
+
+
+
+
+
 
 /* menpage */
 /*nav*/
