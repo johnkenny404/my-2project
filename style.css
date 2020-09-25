@@ -2150,6 +2150,9 @@ margin-left: 14.5rem;
     font-size: small;
 }
 .page18-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-style: solid;
     padding-right: 3rem;
     border-width: 0rem 0rem 0px 0.2px;
@@ -2428,15 +2431,29 @@ margin-left: 14.5rem;
     padding:4px 16px 4px 16px;
 }
 /*page22*/
+.page22-1-top {
+    background-color: #00000045;
+    margin: auto;
+    width: 60%;
+    padding: 5rem;
+}
+.page22-aa {
+    background-color: #ffffff;
+    margin: auto;
+}
 .page22-3 {
-    display: flex;
-    margin-top: 3.8rem;  
+    display: flex; 
     margin-right: 2rem;
     gap: 1rem;
+    margin-top: 1.5rem;
+}
+.page22 {
+    display: flex;
+    gap:1rem;
 }
 .page22-3 a{
-    color: #757575;
-    margin-top: 1rem;  
+    color: #757575; 
+    margin-top: 1rem;
     margin-right: 1rem;
 }
 .page22-1 {
@@ -2610,7 +2627,7 @@ margin-left: 14.5rem;
 .page24-1 {
     background-color: #ffffff;
     margin: auto;
-    margin-top: 3rem;
+    padding-bottom: 1rem;
 }
 
 .page24-2 {
@@ -2618,9 +2635,23 @@ margin-left: 14.5rem;
     margin-right: 2rem;
     padding-top: 2rem;
 }
+.page24-table {
+    margin-left:20px ;
+    color:#757575 ;
+    font-weight: bold;
+}
+
+.table-24 {
+    padding: 25px;
+    margin: 25px;
+    color:#757575 ;
+    border-style: ridge;
+    border-width: thin;
+}
 .page24-3 h3 {
     margin-left: 2rem;
-    color: #757575;
+    columns: #111111;;
+    font-weight: bold;
 }
 .page24-4 {
     margin-right: 2rem;
@@ -2633,14 +2664,23 @@ margin-left: 14.5rem;
     justify-content: flex-end;
     gap: 2rem;
 }
-.page24-header {
-
+.page24-4b p{
+    background-color: #111111;
+    color: #ffffff;
+}
+.page24-4a {
+    color: #757575;
+}
+.page24-4c {
+    color: #757575;
 }
 /*page25*/
 .page25-container {
     max-width: 700px;
     margin: auto;
     padding: 1rem;
+    border-style: ridge;
+    border-width: thin;
 }
 .page25-header {
     text-align: end;
@@ -2684,6 +2724,21 @@ margin-left: 14.5rem;
     color: #ffffff;
     padding: .5rem .5rem .5rem .5rem;
     text-transform: uppercase;
+}
+/*page26*/
+.page-26-1 {
+    background-color: #00000045;
+    margin: auto;
+    width: 80%;
+    padding: 5rem;
+}
+.page26-container {
+    max-width: 700px;
+    margin: auto;
+    padding: 1rem;
+    border-style: ridge;
+    border-width: thin;
+    background-color: #ffffff;
 }
 
 
