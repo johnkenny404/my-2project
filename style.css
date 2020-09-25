@@ -337,20 +337,12 @@ height: 14rem;
     padding: 8px 15px 8px 15px ;
 }
 
-
-
-
-
-
-
-
-
 /* menpage */
 /*nav*/
 body {
     background: #ffffff;
 }
- #men-nav .container {
+ .container {
     max-width: 1200px;
     margin: auto;
     padding: 1rems;
@@ -361,29 +353,29 @@ body {
     top: 0;
     z-index: 2;
 }
-#men-nav .container .nav-section1 {
+.nav-section1 {
     display: flex; 
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
 }
-#men-nav .container .nav-section1 ul  {
+.nav-section1 ul  {
     display: flex;
 }
-#men-nav .container .nav-section2 ul li {
+.nav-section2 ul li {
     display: inline;
     text-align: left;
     padding: .7rem;
 }
-#men-nav .container .nav-section2 a{
+.nav-section2 a{
     color: #000;
     
 }
-#men-nav .container .nav-section2 ul {
+.nav-section2 ul {
     background:#fbfbfb
 }
-.nav-section1 .link  {
+.link  {
     font-family: 'Chiller','lucida sans Regular';
     font-weight: bold;
     text-align: left;
@@ -391,29 +383,29 @@ body {
     font-size: 40px;
 } 
 /*showcase area of menpage i.e men page*/
-#menshowcase .container .menshowcase {
+.menshowcase {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     justify-content: center;
     align-items: center;
 }
-#menshowcase .container .menshowcase img {
+.menshowcase img {
     width: 400px;
 }
-#menshowcase .container .menshowcase .arrival {
+.arrival {
     text-align: center;
 }
-#menshowcase .container .menshowcase .arrival .btn {
+.arrival .btn {
     background: #000;
     color: #fff;
 }
 /*article section*/
-#men-article .container .men-article   {
+.men-article   {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 1rem;
 }
-#men-article .container .men-article div {
+.men-article div {
     height: 300px;
     display: flex;
     justify-content: center;
@@ -421,32 +413,32 @@ body {
     padding: 1rem;
 }
 
-#men-article .container .men-article  .m1 {
+.m1 {
     background: url(./img/men/Image\ 32.png) no-repeat center center/cover;
 }
 
-#men-article .container .men-article  .m2 {
+.m2 {
     background: url(./img/men/Image\ 38.png) no-repeat center center/cover;
 }
-#men-article .container .men-article  .m3 {
+.m3 {
     background: url(./img/men/Image\ 39.png) no-repeat center center/cover;
 }
 
-#men-article .container .men-article  .m4 {
+.m4 {
     background: url(./img/men/Image\ 40.png) no-repeat center center/cover;
 }
-#men-article .container .men-article .m5 {
+.m5 {
     background: url(./img/men/Image\ 41.png) no-repeat center center/cover;
 }
-#men-article .container .men-article .m6 {
+.m6 {
     background: url(./img/men/Image\ 44.png) no-repeat center center/cover;
 }
-#men-article .container .menmiddle .m7 {
+.m7 {
     background: url(./img/men/shorts.png) no-repeat center center/cover;
     width: 250px;
     height: 200px;
 }
-#men-article .container .menmiddle .m8 {
+.m8 {
     background: url(./img/men/Image\ 45.png) no-repeat center center/cover;
     width: 250px;
     height: 200px;
@@ -464,38 +456,20 @@ body {
     padding: 1rem;
 }
 
-#men-article .container .style {
+.style {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 1rem;
 }
-#men-article .container .style img {
+.style img {
     width: 250px;
     height: 200px;
 }
-#men-article .container .style5  {
-    text-align: center;
-    
-}
-/*footer section*/
- .footercontainer {
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    justify-content: space-between;
-    grid-gap: 1rem;
-}
-.container .footercontainer .footer5 ul {
-    display: flex;
-    justify-content: space-between;   
-}
-.container  .footer6 ul{
-    display: flex;
-    justify-content: space-between;
-}
+
 
 
 /*women page*/
-#women-nav .container {
+.container {
     max-width: 1200px;
     margin: auto;
     padding: 1rems;
@@ -506,61 +480,61 @@ body {
     top: 0;
     z-index: 2;
 }
-#women-nav .container .nav-section1 {
+ .nav-section1 {
     display: flex; 
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
 }
-#women-nav .container .nav-section1 ul  {
+.nav-section1 ul  {
     display: flex;
 }
-#women-nav .container .nav-section2 ul li {
+.nav-section2 ul li {
     display: inline;
     text-align: left;
     padding: .7rem;
 }
-#women-nav .container .nav-section2 a{
+.nav-section2 a{
     color: #000;
     
 }
-#women-nav .container .nav-section2 ul {
+.nav-section2 ul {
     background:#fbfbfb
 }
-.nav-section1 .link  {
+.link  {
     font-family: 'Chiller','lucida sans Regular';
     font-weight: bold;
     text-align: left;
     color: #111111;
     font-size: 40px;
 } 
-#womenshowcase .container .womenshowcase {
+.womenshowcase {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     justify-content: center;
     align-items: center;
 }
-#womenshowcase .container .womenshowcase img {
+.womenshowcase img {
     width: 400px;
 }
-#womenshowcase .container .womenshowcase .arrival {
+.arrival {
     text-align: center;
 }
-#womenshowcase .container .womenshowcase .arrival p{
+.arrival p{
     text-align: center;
 }
-#womenshowcase .container .womenshowcase .arrival .btn {
+.btn {
     background: #000;
     color: #fff;
 }
 /*article section*/
-#women-article .container .women-article   {
+.women-article   {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 1rem;
 }
-#women-article .container .women-article div {
+.women-article div {
     height: 300px;
     display: flex;
     justify-content: center;
@@ -568,25 +542,24 @@ body {
     padding: 1rem;
 }
 
-#women-article .container .women-article  .w1 {
+.w1 {
     background: url(./img/women/Image\ 37.png) no-repeat center center/cover;
 }
-
-#women-article .container .women-article  .w2 {
+.w2 {
     background: url(./img/women/Image\ 70.png) no-repeat center center/cover;
 }
-#women-article .container .women-article  .w3 {
+.w3 {
     background: url(./img/women/Image\ 52.png) no-repeat center center/cover;
 }
 
-#women-article .container .women-article  .w4 {
+.w4 {
     background: url(./img/women/Image\ 60.png) no-repeat center center/cover;
 }
-#women-article .container .women-article .w5 {
+.w5 {
     background: url(./img/women/Image\ 53.png) no-repeat center center/cover;
    
 }
-#women-article .container .women-article .w6 {
+.w6 {
     background: url(./img/women/Image\ 56.png) no-repeat center center/cover;
 }
 .w7 {
@@ -632,298 +605,270 @@ body {
     padding: 2rem;
     margin: 1rem;
 }
-/*footer section*/
-.footercontainer {
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    justify-content: space-between;
-    grid-gap: 1rem;
-}
-.container .footercontainer .footer5 ul {
+/*page4*/
+.main-headcontainer {
     display: flex;
-    justify-content: space-between;   
+    gap: 10rem;
 }
-.container  .footer6 ul{
+.main-headcontainer p{
+    color: #707070;
+    font-size: small;
+}
+.head1{
+    padding-left: 15rem;
+}
+.head2 {
+    padding-top: 3.9rem;
+    color: #707070;
+    font-size: small;
+}
+.pic10 {
+    background: url(./img/page4/Image\ 71.png) no-repeat center left/cover;
+    height: 20rem;
+    width: 15rem;
+}
+.pic11 {
+    background: url(./img/page4/Image\ 72.png) no-repeat center left/cover;
+    height: 20rem;
+    width: 15rem;
+}
+.pic12 {
+    background: url(./img/page4/Image\ 73.png) no-repeat center left/cover;
+    height: 20rem;
+    width: 15rem;
+}
+.aarticle {
     display: flex;
-    justify-content: space-between;
-}    
-/*ar page*/
-/*main aarticle*/
-#main-aarticle .container .main-headcontainer {
-    display: flex;
-    justify-content: flex-end;
-    align-items:center;
-}
-#main-aarticle .container .pic1 {
-    background: url(./img/arrival/Image\ 86.png) no-repeat center center/cover;
-    width: 15rem;
-    height: 20rem;
-}
-#main-aarticle .container .pic2 {
-    background: url(./img/arrival/Image\ 87.png) no-repeat center center/cover;
-    width: 15rem;
-    height: 20rem;
-}
-#main-aarticle .container .pic3 {
-    background: url(./img/arrival/Image\ 88.png) no-repeat center center/cover;
-   width: 15rem;
-   height: 20rem;
-}
-#main-aarticle .container .aarticlearticle .pic4{
-    background: url(./img/arrival/Image\ 89.png) no-repeat center center/cover;
-    width: 15rem;
-    height: 20rem;
-}
-#main-aarticle .container .aarticlearticle .pic5{
-    background: url(./img/arrival/Image\ 91.png) no-repeat center center/cover;
-    width: 15rem;
-    height: 20rem;
-}
-#main-aarticle .container .aarticlearticle .pic6{
-    background: url(./img/arrival/Image\ 92.png) no-repeat center center/cover;
-    width: 15rem;
-    height: 20rem;
-}
-#main-aarticle .container .aarticlearticle .pic7{
-    background: url(./img/arrival/Image\ 93.png) no-repeat center center/cover;
-    width: 15rem;
-    height: 20rem;
-}
-#main-aarticle .container .aarticlearticle .pic8{
-    background: url(./img/arrival/Image\ 94.png) no-repeat center center/cover;
-    width: 15rem;
-    height: 20rem;
-}
-#main-aarticle .container .aarticlearticle .pic9{
-    background: url(./img/arrival/Image\ 95.png) no-repeat center center/cover;
-    width: 15rem;
-    height: 20rem;
-}
-#main-aarticle .container img {
-    width: 100%;
-}
-#main-aarticle .container .aarticle  {
-   display: flex;
-   justify-content: space-between;
-}
-#main-aarticle .container .aart {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: center;
+    gap: 8.5rem;
     align-items: center;
-    grid-gap: 0.5rem;
-    padding: 1rem;
 }
-#main-aarticle .container .aart .p {
-    align-items: flex-end;
-    margin: 2rem;
-}
-#main-aarticle .container .p{
-    align-items: flex-end;
-    
-}
-#main-aarticle .container .aarticlearticle {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: center;
-    align-items:center;
-    grid-gap: 4rem;
-    padding: 7rem 2rem 7rem 2rem;
-}
-#main-aarticle .container .aarticle  a {
-    color: #111111;
+.aarticlex i {
     display: flex;
     justify-content: flex-end;
-    height: 280px;
-    
-}
-
-#main-aarticle .container .aarticlearticle a{
+    padding-top: 18rem;
     color: #111111;
+}
+.aart {
+    display: flex;
+    gap: 1rem;
+}
+.aart i {
     display: flex;
     justify-content: flex-end;
-    height: 300px;
-
-}
-/*arranging individual items in content above*/
-/*for aarticle*/
-#main-aarticle .container .aarticle .aarticle1  {
-    display:grid;
-    grid-template-rows: repeat(7,1fr);
-    justify-content: start;
-    align-items: center;
-    margin: 3rem;
-    padding: 1rem; 
-}
-#main-aarticle .container .aarticle .aarticle1 select {
-    border-width: none;
-    border-color: #faeeee;
-}
-#main-aarticle .container .aarticle  .pic p {
+    padding-top: 18rem;
     color: #111111;
 }
-#main-aarticle .container .aarticle .pic i  {
+.aarticle1 {
     display: flex;
-    justify-content: center;
-    align-items: baseline;
-    color: #111111;
-    background: #ffffff;
-    
+    flex-direction: column;
+    gap: 1rem;
 }
-
-/*for aarticlearticle*/
-
-#main-aarticle .container .aarticlearticle .pic p {
-    color: #111111;
-}
-#main-aarticle .container .aarticlearticle .pic i {
+.aarticlex1 i {
     display: flex;
-    justify-content: center;
-    align-items: baseline;
+    justify-content: flex-end;
+    padding-top: 18rem;
     color: #111111;
-    background: #ffffff;   
 }
-#main-aarticle .container .style5 {
-    text-align: center;
-}
-footer {
-    margin: 5rem;
-}
-/*ex page*/
-#main-aarticle .container .aarticle .aart .pic10 {
-    background: url(./img/ex/Image\ 71.png) no-repeat center center/cover;
-    width: 15rem;
+.pic13 {
+    background: url(./img/page4/Image\ 75.png) no-repeat center left/cover;
     height: 20rem;
-}
-#main-aarticle .container .aarticle .aart .pic11 {
-    background: url(./img/ex/Image\ 72.png) no-repeat center center/cover;
-width: 15rem;
-height: 20rem;
-}
-#main-aarticle .container .aarticle .aart .pic12 {
-    background: url(./img/ex/Image\ 73.png) no-repeat center center/cover;
     width: 15rem;
-    height: 20rem; 
 }
-#main-aarticle .container .aarticlex .pic13 {
-    background: url(./img/ex/Image\ 75.png) no-repeat center center/cover;
-    width: 15rem;
-    height: 20rem; 
-}
-#main-aarticle .container .aarticlex .pic14 {
-    background: url(./img/ex/Image\ 84.png) no-repeat center center/cover;
-    width: 15rem;
-    height: 20rem; 
-}
-#main-aarticle .container .aarticlex .pic15 {
-    background: url(./img/ex/Image\ 76.png) no-repeat center center/cover;
-    width: 15rem;
+.pic14 {
+    background: url(./img/page4/Image\ 84.png) no-repeat center left/cover;
     height: 20rem;
-}
-#main-aarticle .container .aarticlex .pic16 {
-    background: url(./img/ex/Image\ 83.png) no-repeat center center/cover;
     width: 15rem;
-    height: 20rem;
-} 
-#main-aarticle .container .aarticlex .pic17 {
-    background: url(./img/ex/Image\ 76.png) no-repeat center center/cover;
-    width: 15rem;
-    height: 20rem;
 }
-#main-aarticle .container .aarticlex .pic18{
-    background: url(./img/ex/Image\ 85.png) no-repeat center center/cover;
-    width:15rem;
+.pic15 {
+    background: url(./img/page4/Image\ 76.png) no-repeat center left/cover;
     height: 20rem;
+    width: 15rem;
 }
 .aarticlex {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 6rem;
-    padding: 1rem;
-    margin: 5rem;
+    display: flex;
+    gap: 1rem;
+    padding-top: 7rem;
+    padding-left: 14.8rem;
 }
-.aarticlex .p {
+.pic16 {
+    background: url(./img/page4/Image\ 83.png) no-repeat center left/cover;
+    height: 20rem;
+    width: 15rem;
+}
+.pic17 {
+    background: url(./img/page4/Image\ 74.png) no-repeat center left/cover;
+    height: 20rem;
+    width: 15rem;
+}
+.pic18 {
+    background: url(./img/page4/Image\ 85.png) no-repeat center left/cover;
+    height: 20rem;
+    width: 15rem;
+}
+.aarticlex1 {
+    display: flex;
+    gap: 1rem;
+    padding-top: 7rem;
+    padding-left: 14.8rem;
+    padding-bottom: 7rem;
+}
+.style5 {
+     text-align: center;
+     text-transform: uppercase;
+}
+.page4 {
+    border-style: solid;
+     border-width: thin;
+     border-color: #000000s; 
+     padding: 4px 7px 4px 7px;
+     color:#000000;
+}
+
+/*page5*/
+.pic1 {
+    background: url(./img/page5/Image\ 86.png) no-repeat center left/cover;
+    height: 20rem;
+    width: 15rem;
+}
+.pic2 {
+    background: url(./img/page5/Image\ 87.png) no-repeat center left/cover;
+    height: 20rem;
+    width: 15rem;
+}
+.pic3 {
+    background: url(./img/page5/Image\ 88.png) no-repeat center left/cover;
+    height: 20rem;
+    width: 15rem;
+}
+.pic4 {
+    background: url(./img/page5/Image\ 89.png) no-repeat center left/cover;
+    height: 20rem;
+    width: 15rem;
+}
+.pic5 {
+    background: url(./img/page5/Image\ 91.png) no-repeat center left/cover;
+    height: 20rem;
+    width: 15rem;
+}
+.pic6 {
+    background: url(./img/page5/Image\ 92.png) no-repeat center left/cover;
+    height: 20rem;
+    width: 15rem;
+}
+.aarticlearticle {
+    display: flex;
+    gap: 1rem;
+    padding-top: 7rem;
+    padding-left: 15rem;
+}
+.aarticlearticle i{
     display: flex;
     justify-content: flex-end;
-    height: 300px;
-    margin: 1rem;
-}
-.aarticlex .p i{
+    padding-top: 18rem;
     color: #111111;
 }
-/*items*/
-
-.aarticle .aart .pic19 {
-    background: url(./img/items/Image\ 96.png) no-repeat center center/cover;
-    width: 15rem;
+.pic7 {
+    background: url(./img/page5/Image\ 93.png) no-repeat center left/cover;
     height: 20rem;
+    width: 15rem;
 }
-.aart .pic20 {
-    background: url(./img/items/Image\ 97.png) no-repeat center center/cover;
-    width: 15rem;
+.pic8 {
+    background: url(./img/page5/Image\ 94.png) no-repeat center left/cover;
     height: 20rem;
+    width: 15rem;
 }
-.aart .pic21 {
-    background: url(./img/items/Image\ 98.png) no-repeat center center/cover;
-    width: 15rem;
+.pic9 {
+    background: url(./img/page5/Image\ 95.png) no-repeat center left/cover;
     height: 20rem;
+    width: 15rem;
+}
+.aarticlearticle1 {
+    display: flex;
+    gap: 1rem;
+    padding-top: 7rem;
+    padding-left: 15rem;
+    padding-bottom: 7rem;
+}
+.aarticlearticle1 i{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 18rem;
+    color: #111111;
+}
+/*page6*/
+.pic19 {
+    background: url(./img/page6/Image\ 96.png) no-repeat center left/cover;
+    height: 20rem;
+    width: 15rem;
+}
+.pic20 {
+    background: url(./img/page6/Image\ 97.png) no-repeat center left/cover;
+    height: 20rem;
+    width: 15rem;
+}
+.pic21 {
+    background: url(./img/page6/Image\ 98.png) no-repeat center left/cover;
+    height: 20rem;
+    width: 15rem;
 }
 .pic22 {
-    background: url(./img/items/Image\ 103.png) no-repeat center center/cover;
-    width: 15rem;
+    background: url(./img/page6/Image\ 103.png) no-repeat center left/cover;
     height: 20rem;
+    width: 15rem;
 }
 .pic23 {
-    background: url(./img/items/Image\ 102.png) no-repeat center center/cover;
-    width: 15rem;
+    background: url(./img/page6/Image\ 102.png) no-repeat center left/cover;
     height: 20rem;
+    width: 15rem;
 }
 .pic24 {
-    background: url(./img/items/Image\ 105.png) no-repeat center center/cover;
-    width: 15rem;
+    background: url(./img/page6/Image\ 105.png) no-repeat center left/cover;
     height: 20rem;
+    width: 15rem;
+}
+.aarticlex6 {
+    display: flex;
+    gap: 1rem;
+    padding-top: 9rem;
+    padding-left: 15rem;
+}
+.aarticlex6 i {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 18rem;
+    color: #111111;
 }
 .pic25 {
-    background: url(./img/items/Image\ 104.png) no-repeat center center/cover;
-    width: 15rem;
+    background: url(./img/page6/Image\ 104.png) no-repeat center left/cover;
     height: 20rem;
+    width: 15rem;
 }
 .pic26 {
-    background: url(./img/items/Image\ 100.png) no-repeat center center/cover;
-    width: 15rem;
+    background: url(./img/page6/Image\ 100.png) no-repeat center left/cover;
     height: 20rem;
+    width: 15rem;
 }
 .pic27 {
-    background: url(./img/items/Image\ 139.png) no-repeat center center/cover;
-    width: 15rem;
+    background: url(./img/page6/Image\ 139.png) no-repeat center left/cover;
     height: 20rem;
+    width: 15rem;
 }
-.price {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    justify-content: space-around;
+.aarticlex61 {
+    display: flex;
+    gap: 1rem;
+    padding-top: 9rem;
+    padding-left: 15rem;
+    padding-bottom: 9rem;
 }
-.aarticlex  p {
-    font-size: 0.7rem;
+.aarticlex61 i {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 18rem;
+    color: #111111;
 }
-.aart p {
-    font-size: 0.7rem
-}
-.aarticlex .price  h5 {
-    color: red;
-}
-.aarticlex .price h6 {
-    text-decoration: line-through;
-}
-.aart .price h5 {
-    color: red;
-}
-.aart .price h6 {
-    text-decoration: line-through;
-}
-.aarticlex .style5 {
-     text-align: center;
-}
+
+
+
 /*page7*/
 .smallpic img {
     height: 35rem;
@@ -1281,6 +1226,11 @@ height: 20rem;
 .puma2 {
     margin-top: 20rem;
 }
+
+
+
+
+
 /*page 8*/
 
 
@@ -1349,16 +1299,25 @@ height: 20rem;
     justify-content: flex-end;
     gap: 3rem;
     margin: 0rem .3rem 0rem 0rem;
+    border-style: solid;
+    border-width: 0rem 0rem 0.2px 0rem;
+    border-color: #f7f4f4;
 }
 .car {
     margin-left: .3rem;
     text-transform: uppercase;
     font-weight: bold
+    border-style: solid;
+    border-width: 0rem 0rem 0.2px 0rem;
+    border-color: #f7f4f4;
 }
 .delivery {
     margin-left: .3rem;
     text-transform: uppercase;
     font-weight: bold;
+    border-style: solid;
+    border-width: 0rem 0rem 0.2px 0rem;
+    border-color: #f7f4f4;
 }
 .images1 {
     background: url(./img/pag8/Image\ 154.png)no-repeat center left/contain;
@@ -1406,6 +1365,9 @@ height: 20rem;
 .delivery-option {
     text-transform: uppercase;
     margin: 0.3rem;
+    border-style: solid;
+    border-width: 0rem 0rem 0.2px 0rem;
+    border-color: #f7f4f4;
 }
 .pick-up {
     text-transform: uppercase;
@@ -1414,6 +1376,13 @@ height: 20rem;
     display: flex;
     justify-content: space-between;
     text-transform: uppercase;
+    margin-left: 4px;
+    border-style: solid;
+    border-width: 0rem 0rem 0.2px 0rem;
+    border-color: #f7f4f4;
+}
+.amount-pay {
+    margin-right: 4px;
 }
 .pay-radio {
     margin: .7rem;
@@ -1711,6 +1680,9 @@ height: 20rem;
     display: flex;
     justify-content: space-between;
 }
+.foot-content h4 {
+    text-transform: uppercase;
+}
 .follow1 ul {
     display: flex;
     gap: 1rem;
@@ -1722,6 +1694,7 @@ height: 20rem;
     background-color: #111111;
     color: #ffffff;
     padding: .5rem .5rem .5rem .5rem;
+    text-transform: uppercase;
 }
 /*page10*/
 .cating-show-show {
@@ -1773,6 +1746,9 @@ height: 20rem;
     font-family: 'Segoe UI';
     color: #111111;
     font-weight: bold;
+    border-style: solid;
+    border-width: 0rem 0rem 0.2px 0rem;
+    border-color: #f7f4f4;
 }
 .summary-item1 {
     margin:0rem 0.5rem 0rem 0rem;
@@ -1790,6 +1766,9 @@ height: 20rem;
     margin: 1rem 0.5rem 0rem 0.5rem;
     font-family: 'Segoe UI';
     color: #111111;
+    border-style: solid;
+    border-width: 0rem 0rem 0.2px 0rem;
+    border-color: #f7f4f4;
 }
 .summary-5 {
     display: flex;
@@ -2006,7 +1985,7 @@ margin-left: 14.5rem;
 .page16-9 {
     border-style: solid;
     border-width: 0rem 0rem 0.2px 0rem;
-    border-color: #a5a1a1;
+    border-color: #f7f4f4;
 }
 .page16-items {
     display: flex;
@@ -2046,7 +2025,7 @@ margin-left: 14.5rem;
 .page16-rap {
     border-style: solid;
     border-width: 0rem 0rem 0.2px 0rem;
-    border-color: #a5a1a1;
+    border-color: #f7f4f4;
 }
 .page16-total {
     display: flex;
@@ -2054,7 +2033,7 @@ margin-left: 14.5rem;
     padding-right: 7rem;
     border-style: solid;
     border-width: 0rem 0rem 0.2px 0rem;
-    border-color: #a5a1a1;
+    border-color:#f7f4f4;
 }
 .page16-total-cotain {
     display: flex;
@@ -2158,6 +2137,8 @@ margin-left: 14.5rem;
 }
 .page18-image-image {
     display: flex;
+    padding-left: 3rem;
+    align-items: center;
 }
 .page18-top {
     font-weight: bold;
@@ -2167,6 +2148,12 @@ margin-left: 14.5rem;
     color: #757575;
     font-family: 'Segoe UI';
     font-size: small;
+}
+.page18-image {
+    border-style: solid;
+    padding-right: 3rem;
+    border-width: 0rem 0rem 0px 0.2px;
+    border-color: #f7f4f4;
 }
 /*page19*/
 .page19-image1 {
